@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2215F10A1FCBE193003A178C /* CHOINewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F1091FCBE193003A178C /* CHOINewFeatureCell.m */; };
+		2215F10D1FCD1148003A178C /* CHOIBaseSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F10C1FCD1148003A178C /* CHOIBaseSettingController.m */; };
+		2215F1131FCE8731003A178C /* CHOISetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F1121FCE8731003A178C /* CHOISetting.m */; };
+		2215F1161FCE9B89003A178C /* CHOIGroupSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F1151FCE9B89003A178C /* CHOIGroupSetting.m */; };
+		2215F1191FCE9C3B003A178C /* CHOIArrowSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F1181FCE9C3B003A178C /* CHOIArrowSetting.m */; };
+		2215F11C1FCE9C4C003A178C /* CHOISwithchSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F11B1FCE9C4C003A178C /* CHOISwithchSetting.m */; };
+		2215F11F1FCE9DD1003A178C /* CHOISettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F11E1FCE9DD1003A178C /* CHOISettingCell.m */; };
+		2215F1221FCE9F76003A178C /* CHOISettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F1211FCE9F76003A178C /* CHOISettingViewController.m */; };
+		2288E6771FA81FB700D19C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2288E6761FA81FB700D19C7D /* Assets.xcassets */; };
+		2288E6851FA81FB800D19C7D /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6841FA81FB800D19C7D /* __Tests.m */; };
+		2288E6901FA81FB800D19C7D /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E68F1FA81FB800D19C7D /* __UITests.m */; };
+		2288E6BD1FA823FE00D19C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6B81FA823FE00D19C7D /* AppDelegate.m */; };
+		2288E6BE1FA823FE00D19C7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6BA1FA823FE00D19C7D /* main.m */; };
+		2288E6C21FA8286F00D19C7D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2288E6C11FA8286F00D19C7D /* Launch Screen.xib */; };
+		2288E6C51FA8296B00D19C7D /* CHOITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6C41FA8296B00D19C7D /* CHOITabBarViewController.m */; };
+		2288E6C81FA829AE00D19C7D /* CHOIArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6C71FA829AE00D19C7D /* CHOIArenaViewController.m */; };
+		2288E6D11FA829F000D19C7D /* CHOIHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6D01FA829F000D19C7D /* CHOIHistoryTableViewController.m */; };
+		2288E6D41FA82A0600D19C7D /* CHOIHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6D31FA82A0600D19C7D /* CHOIHallTableViewController.m */; };
+		2288E6D71FA82A2C00D19C7D /* CHOIDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6D61FA82A2C00D19C7D /* CHOIDiscoverTableViewController.m */; };
+		2288E6DA1FA82A5200D19C7D /* CHOIMyLotterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6D91FA82A5200D19C7D /* CHOIMyLotterViewController.m */; };
+		2288E6DF1FA82C2E00D19C7D /* UIView+CHOI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6DE1FA82C2E00D19C7D /* UIView+CHOI.m */; };
+		2288E6E21FA854CB00D19C7D /* CHOITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6E11FA854CB00D19C7D /* CHOITabBar.m */; };
+		2288E6E51FA85B3500D19C7D /* CHOINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6E41FA85B3500D19C7D /* CHOINavigationController.m */; };
+		2288E6E81FA876D800D19C7D /* UIImage+CHOIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6E71FA876D800D19C7D /* UIImage+CHOIImage.m */; };
+		2288E6EB1FA973EF00D19C7D /* CHOIDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6EA1FA973EF00D19C7D /* CHOIDownView.m */; };
+		2288E6EE1FA9773B00D19C7D /* CHOIMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288E6ED1FA9773B00D19C7D /* CHOIMenu.m */; };
+		22986FCF1FB0052A00372985 /* CHOIActive.m in Sources */ = {isa = PBXBuildFile; fileRef = 22986FCE1FB0052A00372985 /* CHOIActive.m */; };
+		22986FD11FB006CF00372985 /* CHOIActive.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22986FD01FB006CF00372985 /* CHOIActive.xib */; };
+		22986FD41FB0094200372985 /* CHOICover.m in Sources */ = {isa = PBXBuildFile; fileRef = 22986FD31FB0094200372985 /* CHOICover.m */; };
+		229870891FB155FA00372985 /* CHOINextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229870881FB155FA00372985 /* CHOINextViewController.m */; };
+		2298708C1FB157A000372985 /* CHOIArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2298708B1FB157A000372985 /* CHOIArenaController.m */; };
+		2298708E1FB1594900372985 /* CHOIDiscoverTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2298708D1FB1594900372985 /* CHOIDiscoverTableViewController.storyboard */; };
+		229870931FB1895000372985 /* CHOILuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229870921FB1895000372985 /* CHOILuckViewController.m */; };
+		229870961FB1898600372985 /* CHOILuckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 229870951FB1898600372985 /* CHOILuckButton.m */; };
+		2298709C1FB18EEB00372985 /* CHOINewLucky.m in Sources */ = {isa = PBXBuildFile; fileRef = 2298709B1FB18EEB00372985 /* CHOINewLucky.m */; };
+		2298709F1FB18FF000372985 /* CHOINewLuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2298709E1FB18FF000372985 /* CHOINewLuckyViewController.m */; };
+		229870A11FB195AC00372985 /* CHOIMyLotterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229870A01FB195AC00372985 /* CHOIMyLotterViewController.xib */; };
+		22A9DD131FBD975300672F09 /* CHOINewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9DD121FBD975300672F09 /* CHOINewFeatureViewController.m */; };
+		22A9DD161FBD976C00672F09 /* CHOIGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9DD151FBD976C00672F09 /* CHOIGuide.m */; };
+		22A9DD191FBD978400672F09 /* CHOISaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9DD181FBD978400672F09 /* CHOISaveTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2288E6811FA81FB800D19C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2288E65F1FA81FB700D19C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2288E6661FA81FB700D19C7D;
+			remoteInfo = "彩票";
+		};
+		2288E68C1FA81FB800D19C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2288E65F1FA81FB700D19C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2288E6661FA81FB700D19C7D;
+			remoteInfo = "彩票";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2215F1081FCBE193003A178C /* CHOINewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOINewFeatureCell.h; sourceTree = "<group>"; };
+		2215F1091FCBE193003A178C /* CHOINewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOINewFeatureCell.m; sourceTree = "<group>"; };
+		2215F10B1FCD1148003A178C /* CHOIBaseSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIBaseSettingController.h; sourceTree = "<group>"; };
+		2215F10C1FCD1148003A178C /* CHOIBaseSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIBaseSettingController.m; sourceTree = "<group>"; };
+		2215F1111FCE8731003A178C /* CHOISetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOISetting.h; sourceTree = "<group>"; };
+		2215F1121FCE8731003A178C /* CHOISetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOISetting.m; sourceTree = "<group>"; };
+		2215F1141FCE9B89003A178C /* CHOIGroupSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIGroupSetting.h; sourceTree = "<group>"; };
+		2215F1151FCE9B89003A178C /* CHOIGroupSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIGroupSetting.m; sourceTree = "<group>"; };
+		2215F1171FCE9C3B003A178C /* CHOIArrowSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIArrowSetting.h; sourceTree = "<group>"; };
+		2215F1181FCE9C3B003A178C /* CHOIArrowSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIArrowSetting.m; sourceTree = "<group>"; };
+		2215F11A1FCE9C4C003A178C /* CHOISwithchSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOISwithchSetting.h; sourceTree = "<group>"; };
+		2215F11B1FCE9C4C003A178C /* CHOISwithchSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOISwithchSetting.m; sourceTree = "<group>"; };
+		2215F11D1FCE9DD1003A178C /* CHOISettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOISettingCell.h; sourceTree = "<group>"; };
+		2215F11E1FCE9DD1003A178C /* CHOISettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOISettingCell.m; sourceTree = "<group>"; };
+		2215F1201FCE9F76003A178C /* CHOISettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOISettingViewController.h; sourceTree = "<group>"; };
+		2215F1211FCE9F76003A178C /* CHOISettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOISettingViewController.m; sourceTree = "<group>"; };
+		2288E6671FA81FB700D19C7D /* 彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2288E6761FA81FB700D19C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2288E67B1FA81FB700D19C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2288E6801FA81FB800D19C7D /* 彩票Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2288E6841FA81FB800D19C7D /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		2288E6861FA81FB800D19C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2288E68B1FA81FB800D19C7D /* 彩票UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2288E68F1FA81FB800D19C7D /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		2288E6911FA81FB800D19C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2288E6B71FA823FE00D19C7D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2288E6B81FA823FE00D19C7D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2288E6BA1FA823FE00D19C7D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2288E6C11FA8286F00D19C7D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "Classess/Other/Launch Screen.xib"; sourceTree = "<group>"; };
+		2288E6C31FA8296B00D19C7D /* CHOITabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOITabBarViewController.h; sourceTree = "<group>"; };
+		2288E6C41FA8296B00D19C7D /* CHOITabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOITabBarViewController.m; sourceTree = "<group>"; };
+		2288E6C61FA829AE00D19C7D /* CHOIArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIArenaViewController.h; sourceTree = "<group>"; };
+		2288E6C71FA829AE00D19C7D /* CHOIArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIArenaViewController.m; sourceTree = "<group>"; };
+		2288E6CF1FA829F000D19C7D /* CHOIHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIHistoryTableViewController.h; sourceTree = "<group>"; };
+		2288E6D01FA829F000D19C7D /* CHOIHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIHistoryTableViewController.m; sourceTree = "<group>"; };
+		2288E6D21FA82A0600D19C7D /* CHOIHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIHallTableViewController.h; sourceTree = "<group>"; };
+		2288E6D31FA82A0600D19C7D /* CHOIHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIHallTableViewController.m; sourceTree = "<group>"; };
+		2288E6D51FA82A2C00D19C7D /* CHOIDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIDiscoverTableViewController.h; sourceTree = "<group>"; };
+		2288E6D61FA82A2C00D19C7D /* CHOIDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIDiscoverTableViewController.m; sourceTree = "<group>"; };
+		2288E6D81FA82A5200D19C7D /* CHOIMyLotterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIMyLotterViewController.h; sourceTree = "<group>"; };
+		2288E6D91FA82A5200D19C7D /* CHOIMyLotterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIMyLotterViewController.m; sourceTree = "<group>"; };
+		2288E6DB1FA82AE700D19C7D /* CHOICP.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHOICP.pch; sourceTree = "<group>"; };
+		2288E6DD1FA82C2E00D19C7D /* UIView+CHOI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CHOI.h"; sourceTree = "<group>"; };
+		2288E6DE1FA82C2E00D19C7D /* UIView+CHOI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CHOI.m"; sourceTree = "<group>"; };
+		2288E6E01FA854CB00D19C7D /* CHOITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOITabBar.h; sourceTree = "<group>"; };
+		2288E6E11FA854CB00D19C7D /* CHOITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOITabBar.m; sourceTree = "<group>"; };
+		2288E6E31FA85B3500D19C7D /* CHOINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOINavigationController.h; sourceTree = "<group>"; };
+		2288E6E41FA85B3500D19C7D /* CHOINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOINavigationController.m; sourceTree = "<group>"; };
+		2288E6E61FA876D800D19C7D /* UIImage+CHOIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CHOIImage.h"; sourceTree = "<group>"; };
+		2288E6E71FA876D800D19C7D /* UIImage+CHOIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CHOIImage.m"; sourceTree = "<group>"; };
+		2288E6E91FA973EF00D19C7D /* CHOIDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIDownView.h; sourceTree = "<group>"; };
+		2288E6EA1FA973EF00D19C7D /* CHOIDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIDownView.m; sourceTree = "<group>"; };
+		2288E6EC1FA9773B00D19C7D /* CHOIMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIMenu.h; sourceTree = "<group>"; };
+		2288E6ED1FA9773B00D19C7D /* CHOIMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIMenu.m; sourceTree = "<group>"; };
+		22986FCD1FB0052A00372985 /* CHOIActive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIActive.h; sourceTree = "<group>"; };
+		22986FCE1FB0052A00372985 /* CHOIActive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIActive.m; sourceTree = "<group>"; };
+		22986FD01FB006CF00372985 /* CHOIActive.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHOIActive.xib; sourceTree = "<group>"; };
+		22986FD21FB0094200372985 /* CHOICover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOICover.h; sourceTree = "<group>"; };
+		22986FD31FB0094200372985 /* CHOICover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOICover.m; sourceTree = "<group>"; };
+		229870871FB155FA00372985 /* CHOINextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOINextViewController.h; sourceTree = "<group>"; };
+		229870881FB155FA00372985 /* CHOINextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOINextViewController.m; sourceTree = "<group>"; };
+		2298708A1FB157A000372985 /* CHOIArenaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIArenaController.h; sourceTree = "<group>"; };
+		2298708B1FB157A000372985 /* CHOIArenaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIArenaController.m; sourceTree = "<group>"; };
+		2298708D1FB1594900372985 /* CHOIDiscoverTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CHOIDiscoverTableViewController.storyboard; sourceTree = "<group>"; };
+		229870911FB1895000372985 /* CHOILuckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOILuckViewController.h; sourceTree = "<group>"; };
+		229870921FB1895000372985 /* CHOILuckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOILuckViewController.m; sourceTree = "<group>"; };
+		229870941FB1898600372985 /* CHOILuckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOILuckButton.h; sourceTree = "<group>"; };
+		229870951FB1898600372985 /* CHOILuckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOILuckButton.m; sourceTree = "<group>"; };
+		2298709A1FB18EEB00372985 /* CHOINewLucky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOINewLucky.h; sourceTree = "<group>"; };
+		2298709B1FB18EEB00372985 /* CHOINewLucky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOINewLucky.m; sourceTree = "<group>"; };
+		2298709D1FB18FF000372985 /* CHOINewLuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOINewLuckyViewController.h; sourceTree = "<group>"; };
+		2298709E1FB18FF000372985 /* CHOINewLuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOINewLuckyViewController.m; sourceTree = "<group>"; };
+		229870A01FB195AC00372985 /* CHOIMyLotterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHOIMyLotterViewController.xib; sourceTree = "<group>"; };
+		22A9DD111FBD975300672F09 /* CHOINewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOINewFeatureViewController.h; sourceTree = "<group>"; };
+		22A9DD121FBD975300672F09 /* CHOINewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOINewFeatureViewController.m; sourceTree = "<group>"; };
+		22A9DD141FBD976C00672F09 /* CHOIGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOIGuide.h; sourceTree = "<group>"; };
+		22A9DD151FBD976C00672F09 /* CHOIGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOIGuide.m; sourceTree = "<group>"; };
+		22A9DD171FBD978400672F09 /* CHOISaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOISaveTool.h; sourceTree = "<group>"; };
+		22A9DD181FBD978400672F09 /* CHOISaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOISaveTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2288E6641FA81FB700D19C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2288E67D1FA81FB800D19C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2288E6881FA81FB800D19C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2288E65E1FA81FB700D19C7D = {
+			isa = PBXGroup;
+			children = (
+				2288E69D1FA823FE00D19C7D /* Classess */,
+				2288E6691FA81FB700D19C7D /* 彩票 */,
+				2288E6831FA81FB800D19C7D /* 彩票Tests */,
+				2288E68E1FA81FB800D19C7D /* 彩票UITests */,
+				2288E6681FA81FB700D19C7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2288E6681FA81FB700D19C7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6671FA81FB700D19C7D /* 彩票.app */,
+				2288E6801FA81FB800D19C7D /* 彩票Tests.xctest */,
+				2288E68B1FA81FB800D19C7D /* 彩票UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2288E6691FA81FB700D19C7D /* 彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6C11FA8286F00D19C7D /* Launch Screen.xib */,
+				2288E6761FA81FB700D19C7D /* Assets.xcassets */,
+				2288E67B1FA81FB700D19C7D /* Info.plist */,
+				2288E66A1FA81FB700D19C7D /* Supporting Files */,
+			);
+			path = "彩票";
+			sourceTree = "<group>";
+		};
+		2288E66A1FA81FB700D19C7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2288E6831FA81FB800D19C7D /* 彩票Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6841FA81FB800D19C7D /* __Tests.m */,
+				2288E6861FA81FB800D19C7D /* Info.plist */,
+			);
+			path = "彩票Tests";
+			sourceTree = "<group>";
+		};
+		2288E68E1FA81FB800D19C7D /* 彩票UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2288E68F1FA81FB800D19C7D /* __UITests.m */,
+				2288E6911FA81FB800D19C7D /* Info.plist */,
+			);
+			path = "彩票UITests";
+			sourceTree = "<group>";
+		};
+		2288E69D1FA823FE00D19C7D /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				22A9DD051FBD972F00672F09 /* NewFeature(新特性引导页) */,
+				22A9DD091FBD972F00672F09 /* Setting(设置) */,
+				22A9DD0D1FBD972F00672F09 /* Tool(业务类) */,
+				2288E69E1FA823FE00D19C7D /* Arena(竞技场） */,
+				2288E6A21FA823FE00D19C7D /* Discover(发现) */,
+				2288E6A61FA823FE00D19C7D /* Hall(购彩大厅) */,
+				2288E6AA1FA823FE00D19C7D /* History(开奖信息) */,
+				2288E6AE1FA823FE00D19C7D /* Main(主要) */,
+				2288E6B21FA823FE00D19C7D /* MyLotter(我的彩票) */,
+				2288E6B61FA823FE00D19C7D /* Other */,
+			);
+			name = Classess;
+			path = "彩票/Classess";
+			sourceTree = "<group>";
+		};
+		2288E69E1FA823FE00D19C7D /* Arena(竞技场） */ = {
+			isa = PBXGroup;
+			children = (
+				2288E69F1FA823FE00D19C7D /* Controller */,
+				2288E6A01FA823FE00D19C7D /* Model */,
+				2288E6A11FA823FE00D19C7D /* View */,
+			);
+			path = "Arena(竞技场）";
+			sourceTree = "<group>";
+		};
+		2288E69F1FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6C61FA829AE00D19C7D /* CHOIArenaViewController.h */,
+				2288E6C71FA829AE00D19C7D /* CHOIArenaViewController.m */,
+				229870871FB155FA00372985 /* CHOINextViewController.h */,
+				229870881FB155FA00372985 /* CHOINextViewController.m */,
+				2298708A1FB157A000372985 /* CHOIArenaController.h */,
+				2298708B1FB157A000372985 /* CHOIArenaController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6A01FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6A11FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6A21FA823FE00D19C7D /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6A31FA823FE00D19C7D /* Controller */,
+				2288E6A41FA823FE00D19C7D /* Model */,
+				2288E6A51FA823FE00D19C7D /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		2288E6A31FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6D51FA82A2C00D19C7D /* CHOIDiscoverTableViewController.h */,
+				2288E6D61FA82A2C00D19C7D /* CHOIDiscoverTableViewController.m */,
+				229870911FB1895000372985 /* CHOILuckViewController.h */,
+				229870921FB1895000372985 /* CHOILuckViewController.m */,
+				2298708D1FB1594900372985 /* CHOIDiscoverTableViewController.storyboard */,
+				2298709D1FB18FF000372985 /* CHOINewLuckyViewController.h */,
+				2298709E1FB18FF000372985 /* CHOINewLuckyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6A41FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6A51FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				229870941FB1898600372985 /* CHOILuckButton.h */,
+				229870951FB1898600372985 /* CHOILuckButton.m */,
+				2298709A1FB18EEB00372985 /* CHOINewLucky.h */,
+				2298709B1FB18EEB00372985 /* CHOINewLucky.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6A61FA823FE00D19C7D /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6A71FA823FE00D19C7D /* Controller */,
+				2288E6A81FA823FE00D19C7D /* Model */,
+				2288E6A91FA823FE00D19C7D /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		2288E6A71FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6D21FA82A0600D19C7D /* CHOIHallTableViewController.h */,
+				2288E6D31FA82A0600D19C7D /* CHOIHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6A81FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6EC1FA9773B00D19C7D /* CHOIMenu.h */,
+				2288E6ED1FA9773B00D19C7D /* CHOIMenu.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6A91FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6E91FA973EF00D19C7D /* CHOIDownView.h */,
+				2288E6EA1FA973EF00D19C7D /* CHOIDownView.m */,
+				22986FD21FB0094200372985 /* CHOICover.h */,
+				22986FD31FB0094200372985 /* CHOICover.m */,
+				22986FCD1FB0052A00372985 /* CHOIActive.h */,
+				22986FCE1FB0052A00372985 /* CHOIActive.m */,
+				22986FD01FB006CF00372985 /* CHOIActive.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6AA1FA823FE00D19C7D /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6AB1FA823FE00D19C7D /* Controller */,
+				2288E6AC1FA823FE00D19C7D /* Model */,
+				2288E6AD1FA823FE00D19C7D /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		2288E6AB1FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6CF1FA829F000D19C7D /* CHOIHistoryTableViewController.h */,
+				2288E6D01FA829F000D19C7D /* CHOIHistoryTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6AC1FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6AD1FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6AE1FA823FE00D19C7D /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6AF1FA823FE00D19C7D /* Controller */,
+				2288E6B01FA823FE00D19C7D /* Model */,
+				2288E6B11FA823FE00D19C7D /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		2288E6AF1FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6C31FA8296B00D19C7D /* CHOITabBarViewController.h */,
+				2288E6C41FA8296B00D19C7D /* CHOITabBarViewController.m */,
+				2288E6E31FA85B3500D19C7D /* CHOINavigationController.h */,
+				2288E6E41FA85B3500D19C7D /* CHOINavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6B01FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6B11FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6E01FA854CB00D19C7D /* CHOITabBar.h */,
+				2288E6E11FA854CB00D19C7D /* CHOITabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6B21FA823FE00D19C7D /* MyLotter(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6B31FA823FE00D19C7D /* Controller */,
+				2288E6B41FA823FE00D19C7D /* Model */,
+				2288E6B51FA823FE00D19C7D /* View */,
+			);
+			path = "MyLotter(我的彩票)";
+			sourceTree = "<group>";
+		};
+		2288E6B31FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6D81FA82A5200D19C7D /* CHOIMyLotterViewController.h */,
+				2288E6D91FA82A5200D19C7D /* CHOIMyLotterViewController.m */,
+				229870A01FB195AC00372985 /* CHOIMyLotterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6B41FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6B51FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6B61FA823FE00D19C7D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6DC1FA82C0000D19C7D /* Category */,
+				2288E6B71FA823FE00D19C7D /* AppDelegate.h */,
+				2288E6B81FA823FE00D19C7D /* AppDelegate.m */,
+				2288E6B91FA823FE00D19C7D /* Controller */,
+				2288E6BA1FA823FE00D19C7D /* main.m */,
+				2288E6BB1FA823FE00D19C7D /* Model */,
+				2288E6BC1FA823FE00D19C7D /* View */,
+				2288E6DB1FA82AE700D19C7D /* CHOICP.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2288E6B91FA823FE00D19C7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2288E6BB1FA823FE00D19C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2288E6BC1FA823FE00D19C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2288E6DC1FA82C0000D19C7D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2288E6DD1FA82C2E00D19C7D /* UIView+CHOI.h */,
+				2288E6DE1FA82C2E00D19C7D /* UIView+CHOI.m */,
+				2288E6E61FA876D800D19C7D /* UIImage+CHOIImage.h */,
+				2288E6E71FA876D800D19C7D /* UIImage+CHOIImage.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		22A9DD051FBD972F00672F09 /* NewFeature(新特性引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				22A9DD061FBD972F00672F09 /* Controller */,
+				22A9DD071FBD972F00672F09 /* Model */,
+				22A9DD081FBD972F00672F09 /* View */,
+			);
+			path = "NewFeature(新特性引导页)";
+			sourceTree = "<group>";
+		};
+		22A9DD061FBD972F00672F09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22A9DD111FBD975300672F09 /* CHOINewFeatureViewController.h */,
+				22A9DD121FBD975300672F09 /* CHOINewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22A9DD071FBD972F00672F09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22A9DD081FBD972F00672F09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2215F1081FCBE193003A178C /* CHOINewFeatureCell.h */,
+				2215F1091FCBE193003A178C /* CHOINewFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22A9DD091FBD972F00672F09 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				22A9DD0A1FBD972F00672F09 /* Controller */,
+				22A9DD0B1FBD972F00672F09 /* Model */,
+				22A9DD0C1FBD972F00672F09 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		22A9DD0A1FBD972F00672F09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2215F10B1FCD1148003A178C /* CHOIBaseSettingController.h */,
+				2215F10C1FCD1148003A178C /* CHOIBaseSettingController.m */,
+				2215F1201FCE9F76003A178C /* CHOISettingViewController.h */,
+				2215F1211FCE9F76003A178C /* CHOISettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22A9DD0B1FBD972F00672F09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2215F1111FCE8731003A178C /* CHOISetting.h */,
+				2215F1121FCE8731003A178C /* CHOISetting.m */,
+				2215F1141FCE9B89003A178C /* CHOIGroupSetting.h */,
+				2215F1151FCE9B89003A178C /* CHOIGroupSetting.m */,
+				2215F1171FCE9C3B003A178C /* CHOIArrowSetting.h */,
+				2215F1181FCE9C3B003A178C /* CHOIArrowSetting.m */,
+				2215F11A1FCE9C4C003A178C /* CHOISwithchSetting.h */,
+				2215F11B1FCE9C4C003A178C /* CHOISwithchSetting.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22A9DD0C1FBD972F00672F09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2215F11D1FCE9DD1003A178C /* CHOISettingCell.h */,
+				2215F11E1FCE9DD1003A178C /* CHOISettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22A9DD0D1FBD972F00672F09 /* Tool(业务类) */ = {
+			isa = PBXGroup;
+			children = (
+				22A9DD0E1FBD972F00672F09 /* Controller */,
+				22A9DD0F1FBD972F00672F09 /* Model */,
+				22A9DD101FBD972F00672F09 /* View */,
+			);
+			path = "Tool(业务类)";
+			sourceTree = "<group>";
+		};
+		22A9DD0E1FBD972F00672F09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22A9DD141FBD976C00672F09 /* CHOIGuide.h */,
+				22A9DD151FBD976C00672F09 /* CHOIGuide.m */,
+				22A9DD171FBD978400672F09 /* CHOISaveTool.h */,
+				22A9DD181FBD978400672F09 /* CHOISaveTool.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22A9DD0F1FBD972F00672F09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22A9DD101FBD972F00672F09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2288E6661FA81FB700D19C7D /* 彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2288E6941FA81FB800D19C7D /* Build configuration list for PBXNativeTarget "彩票" */;
+			buildPhases = (
+				2288E6631FA81FB700D19C7D /* Sources */,
+				2288E6641FA81FB700D19C7D /* Frameworks */,
+				2288E6651FA81FB700D19C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票";
+			productName = "彩票";
+			productReference = 2288E6671FA81FB700D19C7D /* 彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2288E67F1FA81FB800D19C7D /* 彩票Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2288E6971FA81FB800D19C7D /* Build configuration list for PBXNativeTarget "彩票Tests" */;
+			buildPhases = (
+				2288E67C1FA81FB800D19C7D /* Sources */,
+				2288E67D1FA81FB800D19C7D /* Frameworks */,
+				2288E67E1FA81FB800D19C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2288E6821FA81FB800D19C7D /* PBXTargetDependency */,
+			);
+			name = "彩票Tests";
+			productName = "彩票Tests";
+			productReference = 2288E6801FA81FB800D19C7D /* 彩票Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2288E68A1FA81FB800D19C7D /* 彩票UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2288E69A1FA81FB800D19C7D /* Build configuration list for PBXNativeTarget "彩票UITests" */;
+			buildPhases = (
+				2288E6871FA81FB800D19C7D /* Sources */,
+				2288E6881FA81FB800D19C7D /* Frameworks */,
+				2288E6891FA81FB800D19C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2288E68D1FA81FB800D19C7D /* PBXTargetDependency */,
+			);
+			name = "彩票UITests";
+			productName = "彩票UITests";
+			productReference = 2288E68B1FA81FB800D19C7D /* 彩票UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2288E65F1FA81FB700D19C7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CHOI;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					2288E6661FA81FB700D19C7D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					2288E67F1FA81FB800D19C7D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2288E6661FA81FB700D19C7D;
+					};
+					2288E68A1FA81FB800D19C7D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2288E6661FA81FB700D19C7D;
+					};
+				};
+			};
+			buildConfigurationList = 2288E6621FA81FB700D19C7D /* Build configuration list for PBXProject "彩票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2288E65E1FA81FB700D19C7D;
+			productRefGroup = 2288E6681FA81FB700D19C7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2288E6661FA81FB700D19C7D /* 彩票 */,
+				2288E67F1FA81FB800D19C7D /* 彩票Tests */,
+				2288E68A1FA81FB800D19C7D /* 彩票UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2288E6651FA81FB700D19C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2288E6C21FA8286F00D19C7D /* Launch Screen.xib in Resources */,
+				229870A11FB195AC00372985 /* CHOIMyLotterViewController.xib in Resources */,
+				2288E6771FA81FB700D19C7D /* Assets.xcassets in Resources */,
+				2298708E1FB1594900372985 /* CHOIDiscoverTableViewController.storyboard in Resources */,
+				22986FD11FB006CF00372985 /* CHOIActive.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2288E67E1FA81FB800D19C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2288E6891FA81FB800D19C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2288E6631FA81FB700D19C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2288E6C51FA8296B00D19C7D /* CHOITabBarViewController.m in Sources */,
+				2288E6DA1FA82A5200D19C7D /* CHOIMyLotterViewController.m in Sources */,
+				229870891FB155FA00372985 /* CHOINextViewController.m in Sources */,
+				2288E6D41FA82A0600D19C7D /* CHOIHallTableViewController.m in Sources */,
+				2288E6EE1FA9773B00D19C7D /* CHOIMenu.m in Sources */,
+				2215F1131FCE8731003A178C /* CHOISetting.m in Sources */,
+				2288E6E51FA85B3500D19C7D /* CHOINavigationController.m in Sources */,
+				2288E6EB1FA973EF00D19C7D /* CHOIDownView.m in Sources */,
+				2288E6DF1FA82C2E00D19C7D /* UIView+CHOI.m in Sources */,
+				2215F1221FCE9F76003A178C /* CHOISettingViewController.m in Sources */,
+				2215F11C1FCE9C4C003A178C /* CHOISwithchSetting.m in Sources */,
+				2288E6D71FA82A2C00D19C7D /* CHOIDiscoverTableViewController.m in Sources */,
+				229870961FB1898600372985 /* CHOILuckButton.m in Sources */,
+				22986FD41FB0094200372985 /* CHOICover.m in Sources */,
+				2298708C1FB157A000372985 /* CHOIArenaController.m in Sources */,
+				2288E6C81FA829AE00D19C7D /* CHOIArenaViewController.m in Sources */,
+				2288E6BE1FA823FE00D19C7D /* main.m in Sources */,
+				229870931FB1895000372985 /* CHOILuckViewController.m in Sources */,
+				22986FCF1FB0052A00372985 /* CHOIActive.m in Sources */,
+				2288E6E81FA876D800D19C7D /* UIImage+CHOIImage.m in Sources */,
+				2288E6D11FA829F000D19C7D /* CHOIHistoryTableViewController.m in Sources */,
+				2288E6E21FA854CB00D19C7D /* CHOITabBar.m in Sources */,
+				22A9DD191FBD978400672F09 /* CHOISaveTool.m in Sources */,
+				2215F10A1FCBE193003A178C /* CHOINewFeatureCell.m in Sources */,
+				2215F11F1FCE9DD1003A178C /* CHOISettingCell.m in Sources */,
+				2215F1191FCE9C3B003A178C /* CHOIArrowSetting.m in Sources */,
+				2215F1161FCE9B89003A178C /* CHOIGroupSetting.m in Sources */,
+				2215F10D1FCD1148003A178C /* CHOIBaseSettingController.m in Sources */,
+				2288E6BD1FA823FE00D19C7D /* AppDelegate.m in Sources */,
+				22A9DD131FBD975300672F09 /* CHOINewFeatureViewController.m in Sources */,
+				2298709C1FB18EEB00372985 /* CHOINewLucky.m in Sources */,
+				2298709F1FB18FF000372985 /* CHOINewLuckyViewController.m in Sources */,
+				22A9DD161FBD976C00672F09 /* CHOIGuide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2288E67C1FA81FB800D19C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2288E6851FA81FB800D19C7D /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2288E6871FA81FB800D19C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2288E6901FA81FB800D19C7D /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2288E6821FA81FB800D19C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2288E6661FA81FB700D19C7D /* 彩票 */;
+			targetProxy = 2288E6811FA81FB800D19C7D /* PBXContainerItemProxy */;
+		};
+		2288E68D1FA81FB800D19C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2288E6661FA81FB700D19C7D /* 彩票 */;
+			targetProxy = 2288E68C1FA81FB800D19C7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2288E6921FA81FB800D19C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2288E6931FA81FB800D19C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2288E6951FA81FB800D19C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票/Classess/Other/CHOICP.pch";
+				INFOPLIST_FILE = "彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongkang.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2288E6961FA81FB800D19C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票/Classess/Other/CHOICP.pch";
+				INFOPLIST_FILE = "彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongkang.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2288E6981FA81FB800D19C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "彩票Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongkang.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票.app/彩票";
+			};
+			name = Debug;
+		};
+		2288E6991FA81FB800D19C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "彩票Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongkang.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票.app/彩票";
+			};
+			name = Release;
+		};
+		2288E69B1FA81FB800D19C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "彩票UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongkang.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "彩票";
+			};
+			name = Debug;
+		};
+		2288E69C1FA81FB800D19C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "彩票UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhongkang.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "彩票";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2288E6621FA81FB700D19C7D /* Build configuration list for PBXProject "彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2288E6921FA81FB800D19C7D /* Debug */,
+				2288E6931FA81FB800D19C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2288E6941FA81FB800D19C7D /* Build configuration list for PBXNativeTarget "彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2288E6951FA81FB800D19C7D /* Debug */,
+				2288E6961FA81FB800D19C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2288E6971FA81FB800D19C7D /* Build configuration list for PBXNativeTarget "彩票Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2288E6981FA81FB800D19C7D /* Debug */,
+				2288E6991FA81FB800D19C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2288E69A1FA81FB800D19C7D /* Build configuration list for PBXNativeTarget "彩票UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2288E69B1FA81FB800D19C7D /* Debug */,
+				2288E69C1FA81FB800D19C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2288E65F1FA81FB700D19C7D /* Project object */;
+}
