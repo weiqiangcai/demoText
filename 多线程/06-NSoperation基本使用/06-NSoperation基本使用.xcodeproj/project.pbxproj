@@ -54,6 +54,7 @@
 		729D91FC202BF9DF00EF42BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729D9208202C2E1B00EF42BD /* CHOIOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHOIOperation.h; sourceTree = "<group>"; };
 		729D9209202C2E1B00EF42BD /* CHOIOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHOIOperation.m; sourceTree = "<group>"; };
+		72B8BC6C202EC24200F3396A /* Summary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Summary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				729D91E5202BF9DF00EF42BD /* main.m */,
 				729D9208202C2E1B00EF42BD /* CHOIOperation.h */,
 				729D9209202C2E1B00EF42BD /* CHOIOperation.m */,
+				72B8BC6C202EC24200F3396A /* Summary.h */,
 			);
 			path = "06-NSoperation基本使用";
 			sourceTree = "<group>";
