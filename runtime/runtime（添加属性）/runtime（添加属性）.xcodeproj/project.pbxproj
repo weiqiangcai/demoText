@@ -15,6 +15,8 @@
 		845619D6207477A400A4C375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845619D5207477A400A4C375 /* main.m */; };
 		845619E0207477A400A4C375 /* runtime______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845619DF207477A400A4C375 /* runtime______Tests.m */; };
 		845619EB207477A400A4C375 /* runtime______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845619EA207477A400A4C375 /* runtime______UITests.m */; };
+		845619FA207477F700A4C375 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 845619F9207477F700A4C375 /* Person.m */; };
+		845619FD2074781600A4C375 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 845619FC2074781600A4C375 /* NSObject+Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		845619E6207477A400A4C375 /* runtime（添加属性）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime（添加属性）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845619EA207477A400A4C375 /* runtime______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime______UITests.m"; sourceTree = "<group>"; };
 		845619EC207477A400A4C375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845619F8207477F700A4C375 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		845619F9207477F700A4C375 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		845619FB2074781600A4C375 /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		845619FC2074781600A4C375 /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				845619C7207477A400A4C375 /* AppDelegate.m */,
 				845619C9207477A400A4C375 /* ViewController.h */,
 				845619CA207477A400A4C375 /* ViewController.m */,
+				845619F8207477F700A4C375 /* Person.h */,
+				845619F9207477F700A4C375 /* Person.m */,
+				845619FB2074781600A4C375 /* NSObject+Property.h */,
+				845619FC2074781600A4C375 /* NSObject+Property.m */,
 				845619CC207477A400A4C375 /* Main.storyboard */,
 				845619CF207477A400A4C375 /* Assets.xcassets */,
 				845619D1207477A400A4C375 /* LaunchScreen.storyboard */,
@@ -267,6 +277,8 @@
 			files = (
 				845619CB207477A400A4C375 /* ViewController.m in Sources */,
 				845619D6207477A400A4C375 /* main.m in Sources */,
+				845619FA207477F700A4C375 /* Person.m in Sources */,
+				845619FD2074781600A4C375 /* NSObject+Property.m in Sources */,
 				845619C8207477A400A4C375 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
