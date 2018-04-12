@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8418C0B0207F611A00683FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418C0AF207F611A00683FA9 /* AppDelegate.m */; };
+		8418C0B3207F611A00683FA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418C0B2207F611A00683FA9 /* ViewController.m */; };
+		8418C0B6207F611A00683FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8418C0B4207F611A00683FA9 /* Main.storyboard */; };
+		8418C0B8207F611A00683FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8418C0B7207F611A00683FA9 /* Assets.xcassets */; };
+		8418C0BB207F611A00683FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8418C0B9207F611A00683FA9 /* LaunchScreen.storyboard */; };
+		8418C0BE207F611A00683FA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418C0BD207F611A00683FA9 /* main.m */; };
+		8418C0C8207F611A00683FA9 /* const_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418C0C7207F611A00683FA9 /* const_____Tests.m */; };
+		8418C0D3207F611B00683FA9 /* const_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418C0D2207F611B00683FA9 /* const_____UITests.m */; };
+		8418C0E2207F83A200683FA9 /* GloagleConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418C0E1207F83A200683FA9 /* GloagleConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8418C0C4207F611A00683FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8418C0A3207F611A00683FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8418C0AA207F611A00683FA9;
+			remoteInfo = "const和宏的区别";
+		};
+		8418C0CF207F611B00683FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8418C0A3207F611A00683FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8418C0AA207F611A00683FA9;
+			remoteInfo = "const和宏的区别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8418C0AB207F611A00683FA9 /* const和宏的区别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "const和宏的区别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418C0AE207F611A00683FA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8418C0AF207F611A00683FA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8418C0B1207F611A00683FA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8418C0B2207F611A00683FA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8418C0B5207F611A00683FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8418C0B7207F611A00683FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8418C0BA207F611A00683FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8418C0BC207F611A00683FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8418C0BD207F611A00683FA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8418C0C3207F611A00683FA9 /* const和宏的区别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "const和宏的区别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418C0C7207F611A00683FA9 /* const_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "const_____Tests.m"; sourceTree = "<group>"; };
+		8418C0C9207F611A00683FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8418C0CE207F611B00683FA9 /* const和宏的区别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "const和宏的区别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8418C0D2207F611B00683FA9 /* const_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "const_____UITests.m"; sourceTree = "<group>"; };
+		8418C0D4207F611B00683FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8418C0E0207F83A200683FA9 /* GloagleConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloagleConst.h; sourceTree = "<group>"; };
+		8418C0E1207F83A200683FA9 /* GloagleConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloagleConst.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8418C0A8207F611A00683FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418C0C0207F611A00683FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418C0CB207F611B00683FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8418C0A2207F611A00683FA9 = {
+			isa = PBXGroup;
+			children = (
+				8418C0AD207F611A00683FA9 /* const和宏的区别 */,
+				8418C0C6207F611A00683FA9 /* const和宏的区别Tests */,
+				8418C0D1207F611B00683FA9 /* const和宏的区别UITests */,
+				8418C0AC207F611A00683FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8418C0AC207F611A00683FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8418C0AB207F611A00683FA9 /* const和宏的区别.app */,
+				8418C0C3207F611A00683FA9 /* const和宏的区别Tests.xctest */,
+				8418C0CE207F611B00683FA9 /* const和宏的区别UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8418C0AD207F611A00683FA9 /* const和宏的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				8418C0AE207F611A00683FA9 /* AppDelegate.h */,
+				8418C0AF207F611A00683FA9 /* AppDelegate.m */,
+				8418C0B1207F611A00683FA9 /* ViewController.h */,
+				8418C0B2207F611A00683FA9 /* ViewController.m */,
+				8418C0E0207F83A200683FA9 /* GloagleConst.h */,
+				8418C0E1207F83A200683FA9 /* GloagleConst.m */,
+				8418C0B4207F611A00683FA9 /* Main.storyboard */,
+				8418C0B7207F611A00683FA9 /* Assets.xcassets */,
+				8418C0B9207F611A00683FA9 /* LaunchScreen.storyboard */,
+				8418C0BC207F611A00683FA9 /* Info.plist */,
+				8418C0BD207F611A00683FA9 /* main.m */,
+			);
+			path = "const和宏的区别";
+			sourceTree = "<group>";
+		};
+		8418C0C6207F611A00683FA9 /* const和宏的区别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8418C0C7207F611A00683FA9 /* const_____Tests.m */,
+				8418C0C9207F611A00683FA9 /* Info.plist */,
+			);
+			path = "const和宏的区别Tests";
+			sourceTree = "<group>";
+		};
+		8418C0D1207F611B00683FA9 /* const和宏的区别UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8418C0D2207F611B00683FA9 /* const_____UITests.m */,
+				8418C0D4207F611B00683FA9 /* Info.plist */,
+			);
+			path = "const和宏的区别UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8418C0AA207F611A00683FA9 /* const和宏的区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8418C0D7207F611B00683FA9 /* Build configuration list for PBXNativeTarget "const和宏的区别" */;
+			buildPhases = (
+				8418C0A7207F611A00683FA9 /* Sources */,
+				8418C0A8207F611A00683FA9 /* Frameworks */,
+				8418C0A9207F611A00683FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "const和宏的区别";
+			productName = "const和宏的区别";
+			productReference = 8418C0AB207F611A00683FA9 /* const和宏的区别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8418C0C2207F611A00683FA9 /* const和宏的区别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8418C0DA207F611B00683FA9 /* Build configuration list for PBXNativeTarget "const和宏的区别Tests" */;
+			buildPhases = (
+				8418C0BF207F611A00683FA9 /* Sources */,
+				8418C0C0207F611A00683FA9 /* Frameworks */,
+				8418C0C1207F611A00683FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8418C0C5207F611A00683FA9 /* PBXTargetDependency */,
+			);
+			name = "const和宏的区别Tests";
+			productName = "const和宏的区别Tests";
+			productReference = 8418C0C3207F611A00683FA9 /* const和宏的区别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8418C0CD207F611B00683FA9 /* const和宏的区别UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8418C0DD207F611B00683FA9 /* Build configuration list for PBXNativeTarget "const和宏的区别UITests" */;
+			buildPhases = (
+				8418C0CA207F611B00683FA9 /* Sources */,
+				8418C0CB207F611B00683FA9 /* Frameworks */,
+				8418C0CC207F611B00683FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8418C0D0207F611B00683FA9 /* PBXTargetDependency */,
+			);
+			name = "const和宏的区别UITests";
+			productName = "const和宏的区别UITests";
+			productReference = 8418C0CE207F611B00683FA9 /* const和宏的区别UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8418C0A3207F611A00683FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "蔡伟强";
+				TargetAttributes = {
+					8418C0AA207F611A00683FA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8418C0C2207F611A00683FA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8418C0AA207F611A00683FA9;
+					};
+					8418C0CD207F611B00683FA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8418C0AA207F611A00683FA9;
+					};
+				};
+			};
+			buildConfigurationList = 8418C0A6207F611A00683FA9 /* Build configuration list for PBXProject "const和宏的区别" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8418C0A2207F611A00683FA9;
+			productRefGroup = 8418C0AC207F611A00683FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8418C0AA207F611A00683FA9 /* const和宏的区别 */,
+				8418C0C2207F611A00683FA9 /* const和宏的区别Tests */,
+				8418C0CD207F611B00683FA9 /* const和宏的区别UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8418C0A9207F611A00683FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418C0BB207F611A00683FA9 /* LaunchScreen.storyboard in Resources */,
+				8418C0B8207F611A00683FA9 /* Assets.xcassets in Resources */,
+				8418C0B6207F611A00683FA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418C0C1207F611A00683FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418C0CC207F611B00683FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8418C0A7207F611A00683FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418C0B3207F611A00683FA9 /* ViewController.m in Sources */,
+				8418C0BE207F611A00683FA9 /* main.m in Sources */,
+				8418C0B0207F611A00683FA9 /* AppDelegate.m in Sources */,
+				8418C0E2207F83A200683FA9 /* GloagleConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418C0BF207F611A00683FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418C0C8207F611A00683FA9 /* const_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8418C0CA207F611B00683FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8418C0D3207F611B00683FA9 /* const_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8418C0C5207F611A00683FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8418C0AA207F611A00683FA9 /* const和宏的区别 */;
+			targetProxy = 8418C0C4207F611A00683FA9 /* PBXContainerItemProxy */;
+		};
+		8418C0D0207F611B00683FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8418C0AA207F611A00683FA9 /* const和宏的区别 */;
+			targetProxy = 8418C0CF207F611B00683FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8418C0B4207F611A00683FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8418C0B5207F611A00683FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8418C0B9207F611A00683FA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8418C0BA207F611A00683FA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8418C0D5207F611B00683FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8418C0D6207F611B00683FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8418C0D8207F611B00683FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "const和宏的区别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cwq.const-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8418C0D9207F611B00683FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "const和宏的区别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cwq.const-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8418C0DB207F611B00683FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "const和宏的区别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cwq.const-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/const和宏的区别.app/const和宏的区别";
+			};
+			name = Debug;
+		};
+		8418C0DC207F611B00683FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "const和宏的区别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cwq.const-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/const和宏的区别.app/const和宏的区别";
+			};
+			name = Release;
+		};
+		8418C0DE207F611B00683FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "const和宏的区别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cwq.const-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "const和宏的区别";
+			};
+			name = Debug;
+		};
+		8418C0DF207F611B00683FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "const和宏的区别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cwq.const-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "const和宏的区别";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8418C0A6207F611A00683FA9 /* Build configuration list for PBXProject "const和宏的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418C0D5207F611B00683FA9 /* Debug */,
+				8418C0D6207F611B00683FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8418C0D7207F611B00683FA9 /* Build configuration list for PBXNativeTarget "const和宏的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418C0D8207F611B00683FA9 /* Debug */,
+				8418C0D9207F611B00683FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8418C0DA207F611B00683FA9 /* Build configuration list for PBXNativeTarget "const和宏的区别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418C0DB207F611B00683FA9 /* Debug */,
+				8418C0DC207F611B00683FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8418C0DD207F611B00683FA9 /* Build configuration list for PBXNativeTarget "const和宏的区别UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8418C0DE207F611B00683FA9 /* Debug */,
+				8418C0DF207F611B00683FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8418C0A3207F611A00683FA9 /* Project object */;
+}
